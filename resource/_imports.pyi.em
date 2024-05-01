@@ -11,7 +11,7 @@ import typing
 if sys.version_info < (3, 10):
     from typing_extensions import TypeAlias
 else:
-    from typing import TypeAlias
+    from typing import Type as TypeAlias
 
 import array
 import numpy as np
